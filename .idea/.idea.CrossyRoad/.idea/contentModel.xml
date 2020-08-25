@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_CrossyRoad.-561181564.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Mover.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="SpawnController.cs" t="Include" />
+          <e p="btnAtivo.cs" t="Include" />
+          <e p="cameraFollow.cs" t="Include" />
+          <e p="isInvisible.cs" t="Include" />
+          <e p="manager.cs" t="Include" />
+          <e p="proceduralMap.cs" t="Include" />
+        </e>
+      </e>
+      <e p="CrossyRoad.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
