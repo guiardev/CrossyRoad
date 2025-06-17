@@ -1,5 +1,4 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
 using System.Collections;
@@ -35,12 +34,12 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start (){
-		manager = FindObjectOfType(typeof(manager)) as manager;
+		manager = Object.FindFirstObjectByType(typeof(manager)) as manager;
 		tocarSom = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
-	void Update (){
+	void FixedUpdate (){
 
 		// if(isDead){
 		// 	return;

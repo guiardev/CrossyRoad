@@ -37,7 +37,7 @@ public class manager : MonoBehaviour{
 		moedas = PlayerPrefs.GetInt("moedas");
 		moedasTxt.text = moedas.ToString();
 
-		playerController = FindObjectOfType(typeof(PlayerController)) as PlayerController;
+		playerController = Object.FindFirstObjectByType(typeof(PlayerController)) as PlayerController;
 		
 		fase += PlayerPrefs.GetInt("faseCompleta");
 		FaseTxt.text = "Fase atual: " + fase.ToString();
@@ -164,10 +164,10 @@ public class manager : MonoBehaviour{
 	
 	public void voltarTitulo(){
 		hudLoading.SetActive(true);
-		SceneManager.LoadScene("Titulo");
+		SceneManager.LoadScene("Title");
 	}
 
-	public void sair(){
+	public void exit(){
 		Application.Quit();
 	}
 
